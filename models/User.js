@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 //비밀번호 암호용
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const saltRounds = 10;
 const jwt = require('jsonwebtoken')
 
